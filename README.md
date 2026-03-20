@@ -1,10 +1,12 @@
-Data Structures Group Project
+☣️Data Structures Group Project☣️
 ========================================
+___________________________________________________________________________________________________________________
     
 Due Date: Week 10-12
 --------------------------------
+
 Project Title:
----------------
+----------------------
 E-Commerce Platform for BrandEx Online Store using Data Structures and Files
 
 Background
@@ -38,6 +40,7 @@ The queue manages order processing asynchronously to handle high traffic efficie
 (e) Security & Data Integrity
 -----------------------------
 There are two types of user admin and customers.
+
 Admin
 ------
 The admin username is root and the password is admin. The admin is the only one that can do option (b,d). In addition, the admin can
@@ -64,21 +67,29 @@ up or down.
 
 Workflow Example
 ==============================
+___________________________________________________________________________________________________________________
+
 User Sign-Up & Login
 -----------------------------
 A customer signs up, creating a secure account.
+
 Browsing & Searching
 -----------------------------
 The customer searches for "Laptop" — the system uses BST to quickly find matching products.
+
 Adding to Cart
 -----------------------------
 The customer adds a laptop to the cart.
 The action is pushed onto an undo stack, allowing the customer to revert if needed.
+
 Modifying Cart
 -----------------------------
 The customer removes an accessory; the action is pushed onto the redo stack.
+
 Checkout
+-----------------------------
 The cart contents are transferred into an order, which is enqueued for processing.
+
 Order Fulfillment
 -----------------------------
 Warehouse staff process orders in FIFO order from the queue.
@@ -86,14 +97,18 @@ Customers receive updates once their order is shipped via email.
 
 
 
-AI Usage Policy for Assignments
+AI Usage Policy for Assignments👾👾👾🚧
 ===================================
+___________________________________________________________________________________________________________________
+
 Purpose:
 -----------------------------
 To promote academic integrity and ensure that all submitted work reflects the student's own understanding and efforts, this policy
 outlines the acceptable and unacceptable uses of AI tools in completing assignments.
+
 Policy Guidelines:
 ==================
+
 a) Explicit Acknowledgment:
 -----------------------------
 Students must disclose any use of AI tools (such as ChatGPT, coding assistants, or other generative AI platforms) in the completion of
@@ -125,8 +140,11 @@ e) Instructor's Role:
 -----------------------------
 Instructors may use plagiarism detection tools, code review, and oral examinations to verify the authenticity of student work.
 Submission Documents:
---1. A comprehensive user manual with all group members name and id number on the front of the document. Please note if your name
+1. A comprehensive user manual with all group members name and id number on the front of the document. Please note if your name
 and or id number does not appear on the manual you are not a part of the group.
---2. All project source code files. Please check if files are corrupted or missing before submission failure to comply means no submission.
---3. UML diagrams (any three processes)
---4. Individual reflection
+
+2. All project source code files. Please check if files are corrupted or missing before submission failure to comply means no submission.
+   
+3. UML diagrams (any three processes)
+   
+4. Individual reflection
