@@ -1,6 +1,8 @@
 Data Structures Group Project
+========================================
     
 Due Date: Week 10-12
+--------------------------------
 Project Title:
 E-Commerce Platform for BrandEx Online Store using Data Structures and Files
 Background
