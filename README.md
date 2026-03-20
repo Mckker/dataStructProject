@@ -28,18 +28,23 @@ Customers browse products, add items to their shopping cart, and modify quantiti
 The shopping cart uses a linked list to track products added by the user.
 To allow users to undo or redo recent actions (like removing an item or changing quantity), the system utilizes stacks, providing a better
 user experience.
+
 (d) Order Processing
 -----------------------------
 When a customer checks out, their order is added to an order queue.
 The warehouse's order fulfillment system processes orders in the order received, ensuring fairness.
 The queue manages order processing asynchronously to handle high traffic efficiently.
+
 (e) Security & Data Integrity
 -----------------------------
 There are two types of user admin and customers.
 Admin
+------
 The admin username is root and the password is admin. The admin is the only one that can do option (b,d). In addition, the admin can
 change a customer password.
+
 Customer
+---------
 To purchase from the store a customer must first register. To register the customer will enter first name, last name, and a valid email
 address ONLY. After registering the system will generate a One Time Password (OTP) that the user will enter to access the system.
 After the customer enters the OTP the user will be forced to change their password.
@@ -50,6 +55,7 @@ SIGNUP EMAIL PROVIDED.
 If a user click change password then the old password should be entered. PLEASE NOTE a password history should be in place for the
 last TWO passwords and no password in the history can be used as a new password. User inputs are validated to prevent injection or
 corruption.
+
 (f) User Interface:
 -----------------------------
 Provide a console-based/GUI interface to interact with the system. If a console interface is used the user MUST NOT be able to scroll
